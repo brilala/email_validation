@@ -24,9 +24,9 @@ public class Validate {
 
 		boolean foundMatch = emailAddress.foundMatch(searchFor);
 		if (foundMatch) {
-			System.out.println(searchFor + ": Verified!");
+			System.out.println(searchFor + ": Email address Verified!");
 		} else {
-			System.out.println(searchFor + ": email address NOT verified");
+			System.out.println(searchFor + ": Email address NOT verified");
 		}
 
 	}
